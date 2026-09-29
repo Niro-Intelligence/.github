@@ -11,13 +11,13 @@ Niro is not a replacement for Claude Code, Cursor or Copilot. It is the determin
 
 ### Get started
 
+One command, run inside the repo you are working on:
+
 ```bash
-npm install -g @niroai/niro
-niro login          # opens your browser to approve this device
-cd ~/code/my-service
-niro init           # onboard this folder: create project, upload, build the graph
-niro mcp install    # connect one AI assistant, pick it at the prompt
+npx @niroai/niro start
 ```
+
+It signs you in, builds the graph for that folder, and connects your assistant over MCP.
 
 Works with 14 assistants, including Claude Code, Cursor, Windsurf, VS Code, GitHub Copilot, Codex and Gemini CLI.
 
